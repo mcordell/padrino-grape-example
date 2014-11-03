@@ -24,6 +24,10 @@ gem 'padrino', '0.12.3'
 gem 'grape'
 gem 'padrino-grape', github: "adamluzsi/padrino-grape"
 
+# Test requirements
+gem 'rspec', :group => 'test'
+gem 'rack-test', :require => 'rack/test', :group => 'test'
+
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'
 
